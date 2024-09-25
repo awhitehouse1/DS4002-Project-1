@@ -8,7 +8,9 @@ For add-on packages, the NLTK (Natural Language Tool Kit) and Vader Sentiment pa
 ## Section 2: A Map of your documentation
 In our repository, there are folders for the data, scripts, and output. In the data folder, there is the original Amazon Product Review data source.
 - In the data folder:
-  - amazon_reviews: the original data source
+  - amazon_reviews.csv: the original data source
+  - amazon_reviews_with_compound_scores.csv: contains the compound sentiment scores for each review, along with its positive, negative, and neutral sentiment score
+  - DataAppendix.pdf: includes tables, figures, and other descriptive statistics about the data
 - In the scripts folder:
   -  EDA1_3.ipynb: code used for exploratory data analysis, written in a python notebook
   -  EDA.pdf: code used for exploratory data analysis, written in R
