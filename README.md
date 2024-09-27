@@ -9,12 +9,13 @@ For add-on packages, the NLTK (Natural Language Tool Kit) and Vader Sentiment pa
 In our repository, there are folders for the data, scripts, and output. The original Amazon Product Review data source is located in the data folder. The contents of each folder are described below. 
 - In the Data folder:
   - amazon_reviews.csv: original data source
-  - amazon_reviews_with_compound_scores.csv: contains the compound sentiment scores for each review, along with its positive, negative, and neutral sentiment scores
+  - amazon_reviews_with_compound_scores.csv: processed and cleaned data that contains the compound sentiment scores for each review, along with its positive, negative, and neutral sentiment scores
   - DataAppendix.pdf: includes tables, figures, and other descriptive statistics about the data
 - In the Scripts folder:
   -  EDA1_3.ipynb: code used for exploratory data analysis, written in a python notebook
   -  EDA.pdf: code used for exploratory data analysis in R Markdown
   -  Vader.ipynb: code used to implement the VADER sentiment analysis and analyze the words most commonly associated with different ratings
+  -  Hypothesis_Testing.ipynb: code used for statistical testing
 - In the Output folder:
   - BarPlots_Most_Frequent_Words_by_Rating.pdf: shows the top ten most commonly used words for each overall rating (1-5)
   - BoxPlot_Compound_Score_by_Overall_Rating.png: shows the compound sentiment score distribution for each overall rating (1-5)
