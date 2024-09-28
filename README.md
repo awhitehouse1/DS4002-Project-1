@@ -21,7 +21,7 @@ In our repository, there are folders for the data, scripts, and output. The orig
   - BoxPlot_Compound_Score_by_Overall_Rating.png: shows the compound sentiment score distribution for each overall rating (1-5)
   - Correlation_Compound_Score_and_Overall_Rating.png: scatterplot and line of best fit showing the correlation between compound sentiment score and overall rating
   - Correlation_Median_Compound_Score_and_Overall_Rating.png: scatterplot and line of best fit showing the correlation between the median compound sentiment scores for each rating and the overall rating
-  - HeatMap_Top_10_Frequent_Words.png: heatmap of the ten most commonly used words for each rating
+  - Heatmap_Top_10_Most_Frequent_Words_All_Ratings.png: heatmap of the ten most commonly used words for each rating
   - Ridgeline_Compound_Score_and_Overall_Rating.png: rigidline plot showing the distribution of compound sentiment score for each rating (1-5)
   - ViolinPlot_Compound_Score_and_Overall_Rating.png: violin plot showing the distribution of compound sentiment score for each rating (1-5)
   - Word_Cloud_Frequent_Words_All_Ratings.png: word cloud of frequent words across all ratings
