@@ -15,7 +15,7 @@ In our repository, there are folders for the data, scripts, and output. The orig
   -  EDA1_3.ipynb: code used for exploratory data analysis, written in a python notebook
   -  EDA.pdf: code used for exploratory data analysis in R Markdown
   -  Vader.ipynb: code used to implement the VADER sentiment analysis and analyze the words most commonly associated with different ratings without removing non-sentimental product-related words
-  -  Final_Vader: code used to implement the VADER sentiment analysis and analyze the words most commonly associated with different ratings after additional non-sentimental words were removed from the dataset
+  -  Vader_2: code used to implement the VADER sentiment analysis and analyze the words most commonly associated with different ratings after additional non-sentimental words were removed from the dataset
   -  Hypothesis_Testing.ipynb: code used for statistical testing 
 - In the Output folder:
   - BarPlot_Top_10_Most_Frequent_Words_by_Rating.pdf: shows the top ten most commonly used words for each overall rating (1-5)
@@ -29,4 +29,4 @@ In our repository, there are folders for the data, scripts, and output. The orig
   - Word_Cloud_Frequent_Words_by_Rating: word cloud of frequent words by each overall rating (1-5)
 
 ## Section 3: Instructions for reproducing our results
-First, open your terminal and git clone the github repository. Navigate to the Scripts folder and run the Final_Vader.ipynb file for VADER sentiment analysis. This will install all of the needed packages, preprocess the data to prepare for the sentiment analysis, and then implement the sentiment analysis. 
+First, open your terminal and git clone the github repository. Navigate to the Scripts folder and run the Vader_2.ipynb file for VADER sentiment analysis. This will install all of the needed packages, preprocess the data to prepare for the sentiment analysis, and then implement the sentiment analysis. 
