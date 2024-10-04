@@ -29,4 +29,8 @@ In our repository, there are folders for the data, scripts, and output. The orig
   - Word_Cloud_Frequent_Words_by_Rating: word cloud of frequent words by each overall rating (1-5)
 
 ## Section 3: Instructions for reproducing our results
-First, open your terminal and git clone the github repository. Navigate to the Scripts folder and run the Vader_2.ipynb file for VADER sentiment analysis. This will install all of the needed packages, preprocess the data to prepare for the sentiment analysis, and then implement the sentiment analysis. 
+1. Navigate to the Scripts folder of our repository, where you will see multiple Python notebook scripts. 
+2. Download the Vader_2.ipynb file.
+3. Navigate to the Data folder of our repository and download the amazon_reviews.csv. This is the data that is needed to run the code.
+4. Upload both of these files to Google Colab (https://colab.research.google.com/). This is where the code will be run. 
+5. Open the Vader_2.ipynb file in Colab. Run the code by selecting “Runtime -> Run All” in the Colab tool menu. This will install all of the needed packages, preprocess the data to prepare for the sentiment analysis, and then implement the sentiment analysis.
