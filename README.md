@@ -30,7 +30,9 @@ In our repository, there are folders for the data, scripts, and output. The orig
 
 ## Section 3: Instructions for reproducing our results
 1. Navigate to the Scripts folder of our repository, where you will see multiple Python notebook scripts. 
-2. Download the Vader_2.ipynb file. This is the file needed to run the VADER sentiment analysis. 
-3. Navigate to the Data folder of our repository and download the amazon_reviews.csv. This is the data that is needed to run the code.
-4. Upload both of these files to Google Colab (https://colab.research.google.com/). This is where the code will be run. 
-5. Open the Vader_2.ipynb file in Colab. Run the code by selecting “Runtime -> Run All” in the Colab tool menu. This will install all of the needed packages, preprocess the data to prepare for the sentiment analysis, and then implement the sentiment analysis.
+2. Download the Vader_2.ipynb file. This is the file needed to run the VADER sentiment analysis.
+3. Download the Hypothesis_Testing.ipynb file. This is the file needed to run the hypothesis testing.
+4. Navigate to the Data folder of our repository and download the amazon_reviews.csv. This is the data that is needed to run the code.
+5. Upload these 3 files to Google Colab (https://colab.research.google.com/). This is where the code will be run. 
+6. Open the Vader_2.ipynb file in Colab. Run the code by selecting “Runtime -> Run All” in the Colab tool menu. This will install all of the needed packages, preprocess the data to prepare for the sentiment analysis, and then implement the sentiment analysis.
+7. Open and run the code in the Hypothesis_Testing.ipynb file. 
